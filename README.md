@@ -1,6 +1,5 @@
 # Tidy Data Assignment UCI HAR Data set
 _Vinod
-
 _11th June 2017_
 
 This repository has been prepared as part of the assignment on tidying data.
