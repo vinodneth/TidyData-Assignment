@@ -35,7 +35,7 @@ train/y_train.txt_
 
 _features.txt - Names of column variables in the dataTable
 
-_activity_labels.txt - Links the class labels with their activity name._
+_activity_labels.txt - Links the class labels with their activity name.
 
 ## Assignment Objectives
 Create one R script called run_analysis.R that does the following.
