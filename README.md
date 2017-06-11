@@ -1,6 +1,7 @@
 # Tidy Data Assignment UCI HAR Data set
-_ Vinod
-  11th June 2017 _
+_Vinod
+
+_11th June 2017_
 
 This repository has been prepared as part of the assignment on tidying data.
 The data shared as per assignment has been processed and the final data (tidy) , R script for processing and Codebook shared. This README file 
@@ -21,9 +22,9 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
-_** Information in files as zip  **
+**Information in files as zip**
 
-SUBJECT FILES
+_SUBJECT FILES
 test/subject_test.txt
 train/subject_train.txt
 ACTIVITY FILES
@@ -31,11 +32,11 @@ test/X_test.txt
 train/X_train.txt
 DATA FILES
 test/y_test.txt
-train/y_train.txt
+train/y_train.txt_
 
-features.txt - Names of column variables in the dataTable
+_features.txt - Names of column variables in the dataTable
 
-activity_labels.txt - Links the class labels with their activity name._
+_activity_labels.txt - Links the class labels with their activity name._
 
 ## Assignment Objectives
 Create one R script called run_analysis.R that does the following.
