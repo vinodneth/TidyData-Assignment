@@ -54,14 +54,24 @@ Create one R script called run_analysis.R that does the following.
 - averages.txt : tidy data set with the average grouped by variable, activity and subject
 - codebook.md : Code book for the data and process
 
-## Process in brief
 
-- The data files provided are loaded in R
-- Descriptivity activity names added
-- Variable names added from features.txt
-- The data set prepared by joining the subject and activity details
-- Train and test data merged to arrive at the final output
-- Seperate data set prepared for the average grouped by variable, activity and subject
+## Processing by R script
+_Load Data_
+- Load library dplyr and reshape2. 
+- Use "read.table" to read the txt files provided
+
+_Include descriptive activity names to name the activities in the data set_
+- Use activity names from activity_labels.txt
+
+_Label the data set with descriptive variable names_
+- Include descriptive variable name for Subject and features. Use details in features.txt
+
+_Merge data and extract only mean and standard deviation variables_
+- RBIND train and test data
+- Prepare final data set by selecting Subject, Activity and other variables which have mean() and std()
+
+_Prepare second data set which provides averages by variable, activity and subject_
+- Data is melted and recast as a set of the means of the columns per subject per activity with reshaper2 to a new data set 
 
 
 
