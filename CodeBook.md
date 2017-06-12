@@ -75,20 +75,7 @@ mean(): Mean value
 std(): Standard deviation
 
 
-## Processing by R script
-_Load Data_
-- Load library dplyr and reshape2. 
-- Use "read.table" to read the txt files provided
-
-_Include descriptive activity names to name the activities in the data set_
-- Use activity names from activity_labels.txt
-
-_Label the data set with descriptive variable names_
-- Include descriptive variable name for Subject and features. Use details in features.txt
-
-_Merge data and extract only mean and standard deviation variables_
-- RBIND train and test data
-- Prepare final data set by selecting Subject, Activity and other variables which have mean() and std()
-
-_Prepare second data set which provides averages by variable, activity and subject_
-- Data is melted and recast as a set of the means of the columns per subject per activity with reshaper2 to a new data set 
+## Tidy Data - variables
+- Subject - An id of the subject who carried out the experiment
+- Activity - The descriptive name of the activity performed
+- the mean and standard deviation variables in the source data have been replicated in tidy data set
